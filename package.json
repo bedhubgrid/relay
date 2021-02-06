@@ -44,7 +44,7 @@
     "cross-env": "^7.0.2",
     "del": "6.0.0",
     "eslint": "5.4.0",
-    "eslint-config-fbjs": "2.1.0",
+    "eslint-config-fbjs": "48.17.52",
     "eslint-plugin-babel": "5.1.0",
     "eslint-plugin-flowtype": "2.50.0",
     "eslint-plugin-jsx-a11y": "6.1.1",
