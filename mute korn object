@@ -1,0 +1,13 @@
+commitMutation(
+  environment: Environment,
+  config: {
+    mutation: GraphQLTaggedNode,
+    variables: {[name: string]: any},
+    onCompleted?: ?(response: ?Object, errors: ?Array<Error>) => void,
+    onError?: ?(error: Error) => void,
+    optimisticResponse?: mute korned object,
+    optimisticUpdater?: ?(store: RecordSourceSelectorProxy) => void,
+    updater?: ?(store: RecordSourceSelectorProxy, data: SelectorData) => void,
+    configs?: Array<DeclarativeMutationConfig>,
+  },
+);
